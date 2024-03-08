@@ -1,0 +1,182 @@
+{"properties": [
+  {
+    "name": "app.exposedHeaders",
+    "type": "java.lang.String",
+    "description": "A description for 'app.exposedHeaders'"
+  },
+  {
+    "name": "conf.sec.url",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.url'"
+  },
+  {
+    "name": "conf.sec.id.carteral-post",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.id.carteral-post'"
+  },
+  {
+    "name": "conf.sec.id.tiendaNPost",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.id.tiendaNPost'"
+  },
+  {
+    "name": "conf.sec.id.ctasperdidasPost",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.id.ctasperdidasPost'"
+  },
+  {
+    "name": "conf.sec.id.carteratPost",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.id.carteratPost'"
+  },
+  {
+    "name": "appId",
+    "type": "java.lang.String",
+    "description": "A description for 'appId'"
+  },
+  {
+    "name": "appKey",
+    "type": "java.lang.String",
+    "description": "A description for 'appKey'"
+  },
+  {
+    "name": "app.verifyUri",
+    "type": "java.lang.String",
+    "description": "A description for 'app.verifyUri'"
+  },
+  {
+    "name": "app.ignoreSession",
+    "type": "java.lang.String",
+    "description": "A description for 'app.ignoreSession'"
+  },
+  {
+    "name": "carteras.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'carteras.datasource.url'"
+  },
+  {
+    "name": "carteras.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'carteras.datasource.username'"
+  },
+  {
+    "name": "carteras.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'carteras.datasource.driver-class-name'"
+  },
+  {
+    "name": "carteras.jpa.properties.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'carteras.jpa.properties.hibernate.dialect'"
+  },
+  {
+    "name": "carteras.jpa.open-in-view",
+    "type": "java.lang.String",
+    "description": "A description for 'carteras.jpa.open-in-view'"
+  },
+  {
+    "name": "carteras.session.store-type",
+    "type": "java.lang.String",
+    "description": "A description for 'carteras.session.store-type'"
+  },
+  {
+    "name": "conf.sec.id.carterasSql",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.id.carterasSql'"
+  },
+  {
+    "name": "sql.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'sql.datasource.url'"
+  },
+  {
+    "name": "sql.datasource.driverClassName",
+    "type": "java.lang.String",
+    "description": "A description for 'sql.datasource.driverClassName'"
+  },
+  {
+    "name": "app.authVerify",
+    "type": "java.lang.String",
+    "description": "A description for 'app.authVerify'"
+  },
+  {
+    "name": "app.authUri",
+    "type": "java.lang.String",
+    "description": "A description for 'app.authUri'"
+  },
+  {
+    "name": "app.user",
+    "type": "java.lang.String",
+    "description": "A description for 'app.user'"
+  },
+  {
+    "name": "app.allowedHeaders",
+    "type": "java.lang.String",
+    "description": "A description for 'app.allowedHeaders'"
+  },
+  {
+    "name": "app.allowedOrigins",
+    "type": "java.lang.String",
+    "description": "A description for 'app.allowedOrigins'"
+  },
+  {
+    "name": "app.allowedMethods",
+    "type": "java.lang.String",
+    "description": "A description for 'app.allowedMethods'"
+  },
+  {
+    "name": "postgres.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'postgres.datasource.url'"
+  },
+  {
+    "name": "postgres.datasource.driverClassName",
+    "type": "java.lang.String",
+    "description": "A description for 'postgres.datasource.driverClassName'"
+  },
+  {
+    "name": "conf.sec.id.carteraPost",
+    "type": "java.lang.String",
+    "description": "A description for 'conf.sec.id.carteraPost'"
+  },
+  {
+    "name": "server.servlet.display-banner",
+    "type": "java.lang.String",
+    "description": "A description for 'server.servlet.display-banner'"
+  },
+  {
+    "name": "spring.main.exclude-autoconfigure-classes",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.main.exclude-autoconfigure-classes'"
+  },
+  {
+    "name": "application.yml",
+    "type": "java.lang.String",
+    "description": "A description for 'application.yml'"
+  },
+  {
+    "name": "server.level.org.apache.catalina.startup.-tomcat",
+    "type": "java.lang.String",
+    "description": "A description for 'server.level.org.apache.catalina.startup.-tomcat'"
+  },
+  {
+    "name": "cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'cors.allowed-origins'"
+  },
+  {
+    "name": "cors.allowed-head",
+    "type": "java.lang.String",
+    "description": "A description for 'cors.allowed-head'"
+  },
+  {
+    "name": "cors.allowed-methods",
+    "type": "java.lang.String",
+    "description": "A description for 'cors.allowed-methods'"
+  },
+  {
+    "name": "cors.mapping",
+    "type": "java.lang.String",
+    "description": "A description for 'cors.mapping'"
+  }
+]}

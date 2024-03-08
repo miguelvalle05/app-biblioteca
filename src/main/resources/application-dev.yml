@@ -1,0 +1,50 @@
+server:
+  port: 9090
+
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db_biblioteca?useSSL=false
+    username: biblioteca
+    password: biblioteca
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  
+  application:
+    name: 'app-biblioteca'
+
+#Configuracion de la documentacion de apis
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+  api-docs:
+    enabled: true
+    path: /api-docs
+  packages-to-scan:
+  - com.pe.crce.biblioteca.appbiblioteca.controllers
+
+# configuracion de los logs
+logging:
+  level:
+    root: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" 
+  file:
+    name: log/${spring.application.name}.log
+    max-size:
+      negative: 10MB
+    total-size-cap:
+      negative: 100MB
+
+##cors origin
+cors:
+  mapping: "/**"
+  allowed-origins: http://localhost:4200, http://localhost:80
+  allowed-methods: GET, POST, PATCH, PUT, DELETE, POTIONS, HEAD
+  allowed-head: "*"
